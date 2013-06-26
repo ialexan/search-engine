@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.pcwerk</groupId>
+    <artifactId>seck</artifactId>
+    <version>0.0.6-dev</version>
+  </parent>
+
+  <artifactId>seck-lib</artifactId>
+  <packaging>jar</packaging>
+  <repositories>
+  <repository>
+    <id>tmate</id>
+    <url>http://maven.tmatesoft.com/content/repositories/releases</url>
+  </repository>
+</repositories>
+  
+  <dependencies>
+    <dependency>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+<dependency>
+  <groupId>org.tmatesoft.sqljet</groupId>
+  <artifactId>sqljet</artifactId>
+  <version>1.1.5</version>
+</dependency>
+<dependency>
+
+   <groupId>org.apache.lucene</groupId>
+
+   <artifactId>lucene-core</artifactId>
+
+   <version>4.0.0</version>
+
+   </dependency>
+
+   <dependency>
+
+   <groupId>org.apache.lucene</groupId>
+
+   <artifactId>lucene-queryparser</artifactId>
+
+   <version>4.0.0</version>
+
+   </dependency>
+
+<dependency>
+  <!-- jsoup HTML parser library @ http://jsoup.org/ -->
+  <groupId>org.jsoup</groupId>
+  <artifactId>jsoup</artifactId>
+  <version>1.7.1</version>
+</dependency>
+
+   <dependency>
+
+   <groupId>org.apache.lucene</groupId>
+
+   <artifactId>lucene-analyzers-common</artifactId>
+
+   <version>4.0.0</version>
+
+    </dependency>
+            
+    <dependency>
+      <groupId>com.googlecode.juniversalchardet</groupId>
+      <artifactId>juniversalchardet</artifactId>
+      <scope>compile</scope>
+    </dependency>
+   
+		<dependency>
+      <groupId>org.ccil.cowan.tagsoup</groupId>
+      <artifactId>tagsoup</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.apache.tika</groupId>
+      <artifactId>tika-core</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tika</groupId>
+      <artifactId>tika-parsers</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.imgscalr</groupId>
+    	<artifactId>imgscalr-lib</artifactId>
+    	<version>4.2</version>
+    </dependency>
+  </dependencies>
+</project>
+
