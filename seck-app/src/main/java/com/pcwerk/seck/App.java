@@ -163,7 +163,7 @@ public class App {
 
 	    private void index(){
 	        System.out.println("[i]   indexing starts");
-	        Indexer indexer = new Indexer("indexing");
+	        Indexer indexer = new Indexer("../../indexing");
 
 	        System.out.println("\n Indexing... \n");
 
@@ -185,7 +185,7 @@ public class App {
 
 	    private void indexInfo(){
 	        System.out.println("[i]   Display Index Table");
-	        Indexer indexer = new Indexer("indexing");
+	        Indexer indexer = new Indexer("../../indexing");
 	        indexer.indexReader();
 	        System.out.println("[i]   End of Display");
 	    }

@@ -83,7 +83,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        \t\n");
       out.write("        \t<div class=\"row-fluid pagination-centered\">\n");
       out.write("        \t\t<div class=\"span12\">\n");
-      out.write("\t\t\t\t\t<form class=\"form-search\" action=\"/servlet/hello\" method=\"get\">\n");
+      out.write("\t\t\t\t\t<form class=\"form-search\" action=\"${pageContext.request.contextPath}/servlet/hello\" method=\"get\">\n");
       out.write("\t\t\t\t\t<div class=\"input-append\">\n");
       out.write("\t\t\t\t\t  <input type=\"text\" name=\"query\" class=\"input-xxlarge search-query\" x-webkit-speech x-webkit-grammar=\"builtin:search\" placeholder=\"Enter your search term...\" >\n");
       out.write("\t\t\t\t\t  <button type=\"submit\" class=\"btn\"><i class=\"icon-search\"></i> Search</button>\n");

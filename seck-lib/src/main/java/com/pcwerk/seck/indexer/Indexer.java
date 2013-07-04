@@ -31,7 +31,7 @@ import com.pcwerk.seck.store.WebDocument;
 public class Indexer {
 	//Test
 	public static void main(String args[]){
-		Indexer indexer = new Indexer("/Users/ajo/workspace/cs454/seck/seck-web/indexing");
+		Indexer indexer = new Indexer("/../indexing");
 		List<WebDocument> results = indexer.indexQuerySearch("up");
 		for(WebDocument result: results){
 			System.out.println(result.getTitle());

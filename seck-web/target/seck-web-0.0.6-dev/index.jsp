@@ -31,9 +31,9 @@
         	
         	<div class="row-fluid pagination-centered">
         		<div class="span12">
-					<form class="form-search" action="/servlet/hello" method="get">
+					<form class="form-search" action="${pageContext.request.contextPath}/servlet/hello" method="get">
 					<div class="input-append">
-					  <input type="text" class="input-xxlarge search-query" x-webkit-speech x-webkit-grammar="builtin:search" placeholder="Enter your search term..." >
+					  <input type="text" name="query" class="input-xxlarge search-query" x-webkit-speech x-webkit-grammar="builtin:search" placeholder="Enter your search term..." >
 					  <button type="submit" class="btn"><i class="icon-search"></i> Search</button>
 					  </div>
 					</form>
