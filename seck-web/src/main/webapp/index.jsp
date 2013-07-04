@@ -1,31 +1,55 @@
-<html>
-<body>
-<h1>SECK</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SECK Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-Search Engine Construction Kit (SECK) Demo page.  Below are the various web applications
-demoing the tools and technologies used for making SECK.
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        
+        <!-- User Defined CSS -->
+        <link rel="stylesheet" href="css/main.css">
 
-<h2>Obligatory "Hello, World!" Application</h2> 
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        
+        <div class="container-fluid">
+        
+        	<div class="row-fluid pagination-centered">
+        		<div class="span12"><img style="margin:100px auto 20px 0px;" src="img/logo-large.png" /></div>
+        	</div>
+        	
+        	<div class="row-fluid pagination-centered">
+        		<div class="span12">
+					<form class="form-search" action="/servlet/hello" method="get">
+					<div class="input-append">
+					  <input type="text" name="query" class="input-xxlarge search-query" x-webkit-speech x-webkit-grammar="builtin:search" placeholder="Enter your search term..." >
+					  <button type="submit" class="btn"><i class="icon-search"></i> Search</button>
+					  </div>
+					</form>
+				</div>
+        	</div>
+        
+        </div>
 
-<form action="/servlet/hello" method="get">
-  <input type="text" name="query">
-  <input type="submit" value="Submit">
-</form>
+        
 
-<!--<h2>Simple Search Desktop Search (SSDS)</h2> 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-<form action="/servlet/simple-search" method="get">
-  <input type="text" name="search" value="search item">
-  <input type="submit" value="Submit">
-</form>
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-<h2>Restlet Guestbook Demo</h2>
-
-<a href="/rest/helloworld">Restlet Guestbook Demo</a>
-
-<h2>JSTL Demo </h2>
-
-<a href="/jstl.jsp">Simple JSTL page</a> [currently broken]-->
-
-</body>
+		<!-- User defined JS -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
