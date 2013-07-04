@@ -45,7 +45,7 @@ public class HelloWorld extends HttpServlet {
     
     out.println("</table>");
     
-    out.println("<a href=seck-web-0.0.6-dev/index.jsp>back to search</a>");
+    out.println("<a href=index.jsp>back to search</a>");
     
    
   }
